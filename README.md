@@ -27,7 +27,7 @@ conda activate WGFormer
 ```
 
 ## 📦 Datasets
-We use the Molecule3D and QM9 provided in [GTMGC](https://github.com/Rich-XGK/GTMGC) as our datasets, please download them and organize the `./data` directory as follows:
+We use the Molecule3D and QM9 provided in [GTMGC](https://github.com/Rich-XGK/GTMGC) as our datasets. Please download them and organize the `./data` directory as follows:
 ```
 data
 ├── Molecule3D
@@ -66,9 +66,12 @@ cd data
 python process_QM9.py
 python process_Molecule3D.py
 ```
+Here, the processed QM9 dataset has been provided in this [link](https://drive.google.com/file/d/11WWuN_3hGKm7ZKltgUjlx4sKsHo9wP8A/view?usp=sharing).
 
 ## 💪 Experiments
 ### Training
+Our model weights have been provided in this [link](https://drive.google.com/drive/folders/1lVACTNf-y2M0qiXs8ybDp6Jlngaxq-cu?usp=sharing). 
+You can also train from scratch by running the following script.
 ``` cmd
 bash train.sh
 ```
